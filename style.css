@@ -1,1 +1,7 @@
-
+<!DOCTYPE html>
+<style>
+section {
+  background-color: red;
+  height: 500px;
+  width: 100%;
+}
