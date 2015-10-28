@@ -30,13 +30,24 @@ Author URL: http://themeforest.net/user/codesymbol/
 ============================================================================================================================================*/
 
     @font-face {
-        font-family: 'effra';
-        src: url('../includes/font/effra-regular.eot');
-        src: url('../includes/font/effra-regular.eot?#iefix') format('embedded-opentype'),
-             url('../includes/font/effra-regular.woff') format('woff'),
-             url('../includes/font/effra-regular.ttf') format('truetype'),
-             url('../includes/font/effra-regular.svg#effraregular') format('svg');
-    }
+font-family: 'Effra';
+   src: url('font/Effra-Regular.eot') format('embedded-opentype');
+   src: url('font/Effra-Regular.otf') format('opentype'),
+        url('font/Effra-Regular.svg') format('svg'),
+        url('font/Effra-Regular.ttf') format('truetype'),
+        url('font/Effra-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}@font-face {
+font-family: 'Effra';
+   src: url('font/Effra-Regular.eot') format('embedded-opentype');
+   src: url('font/Effra-Regular.otf') format('opentype'),
+        url('font/Effra-Regular.svg') format('svg'),
+        url('font/Effra-Regular.ttf') format('truetype'),
+        url('font/Effra-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
     html {
         height: 100%;
         background-color: #000000;
